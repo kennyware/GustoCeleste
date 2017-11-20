@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .background-img{
-	background-image: url('../img/menu-restaurant-vintage-table.jpg');
+	background-image: url('../img/home-bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -229,7 +229,7 @@ button.nav-toggle:focus{
 }
 
 #menu.parallax{
-	background-image: url('../img/menu-restaurant-france-eating-9315.jpg');
+	background-image: url('../img/menu-bg.jpg');
 }
 
 #menu .content{
