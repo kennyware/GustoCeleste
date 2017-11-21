@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=7">
-	<title>Restaurant</title>
+	<title>Gusto Celeste | Restaurant</title>
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lato" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
@@ -351,11 +351,13 @@
 					</div>
 					</div>
 					<div class="col-sm-12 col-lg-4">
-						<h4>Open Hours</h4>
-						<h5>Monday - Thursday</h5>
-						<h5>10:00AM - 11:00PM</h5>
-						<h5>Friday - Sunday</h5>
-						<h5>10:00AM - 03:00PM</h5>
+						<div class="container">
+							<h4>Open Hours</h4>
+							<h5>Monday - Thursday</h5>
+							<h5>10:00AM - 11:00PM</h5>
+							<h5>Friday - Sunday</h5>
+							<h5>10:00AM - 03:00PM</h5>
+						</div>
 					</div>
 				</div>
 
@@ -422,7 +424,7 @@
 
 				var hash = this.hash;
 
-				$('html, body').animate({scrollTop:$(hash).offset().top}, 2000, 'swing');
+				$('html, body').animate({scrollTop:$(hash).offset().top-100}, 2000, 'swing');
 			});
 
 			$(".rwd-navigation .rwd-nav-list a").click(function(e){
@@ -430,7 +432,7 @@
 				$(".rwd-navigation").slideToggle("fast");
 				var hash = this.hash;
 				responsiveMenu = false;
-				$('html, body').animate({scrollTop:$(hash).offset().top}, 2000, 'swing');
+				$('html, body').animate({scrollTop:$(hash).offset().top-100}, 2000, 'swing');
 
 			});
 
